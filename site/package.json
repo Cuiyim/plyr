@@ -1,0 +1,33 @@
+{
+  "name": "plyr-site",
+  "version": "0.0.0",
+  "private": true,
+  "description": "The plyr.io website",
+  "homepage": "https://plyr.io",
+  "author": "Sam Potts <sam@potts.es>",
+  "type": "module",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "dev": "vp dev",
+    "build": "node scripts/build.ts",
+    "preview": "vp preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "@vercel/speed-insights": "^2.0.0",
+    "@videojs/mux-video": "https://pkg.pr.new/videojs/v10/@videojs/mux-video@3d6ce93",
+    "@videojs/react": "https://pkg.pr.new/videojs/v10/@videojs/react@3d6ce93",
+    "class-variance-authority": "^0.7.1",
+    "preact": "11.0.0-rc.2",
+    "preact-render-to-string": "^6.7.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@types/node": "^24.13.4",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2",
+    "vite": "npm:@voidzero-dev/vite-plus-core@0.3.2",
+    "vite-plus": "0.3.2"
+  }
+}

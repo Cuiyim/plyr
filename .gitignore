@@ -8,3 +8,13 @@ yarn-error.log
 .idea/
 dist/
 .env
+site/dist/
+site/.server/
+.vercel/
+.vite-hooks/_
+
+# Only pnpm-lock.yaml is used; block lockfiles from other package managers
+package-lock.json
+yarn.lock
+bun.lock
+bun.lockb

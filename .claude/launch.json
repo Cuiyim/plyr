@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site-preview",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "plyr-site", "preview"],
+      "port": 3000
+    },
+    {
+      "name": "site-dev",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "plyr-site", "dev"],
+      "port": 3000
+    },
+    {
+      "name": "site-preview-3001",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["--filter", "plyr-site", "preview", "--port", "3001"],
+      "port": 3001
+    }
+  ]
+}
